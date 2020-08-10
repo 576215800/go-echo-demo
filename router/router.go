@@ -2,7 +2,7 @@ package router
 
 import (
 	"echodemo/controller"
-	"git.ldblock.com/ldblock/logger"
+	"echodemo/logs"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )

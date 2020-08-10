@@ -2,7 +2,7 @@ package main
 
 import (
 	"echodemo/router"
-	"git.ldblock.com/ldblock/logger"
+	"echodemo/logs"
 )
 
 func main() {

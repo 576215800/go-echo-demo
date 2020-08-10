@@ -1,5 +1,3 @@
-git.ldblock.com/ldblock/logger v0.0.0-20200709084956-64fc0f9d28ee h1:xmJ1bZLnGGqqgQFr2pdfcdpNpTA69XQZUl+u7nEA7eo=
-git.ldblock.com/ldblock/logger v0.0.0-20200709084956-64fc0f9d28ee/go.mod h1:fgsmKVDWwisRoPZ3RIjPZhqOK/UnvBqRV6DYJ+8CNf4=
 github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 h1:kHaBemcxl8o/pQ5VM1c8PVE1PubbNx3mjUr09OqWGCs=
 github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575/go.mod h1:9d6lWj8KzO/fd/NrVaLscBKmPigpZpn5YawRPw+e3Yo=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
