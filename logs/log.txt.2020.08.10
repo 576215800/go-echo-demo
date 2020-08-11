@@ -4,3 +4,5 @@
 [31m2020-08-10 11:57:54 [DBG] [router.go:18] [echodemo/router.Start]->[0m [start router....] 
 [31m2020-08-10 16:11:59 [DBG] [router.go:18] [echodemo/router.Start]->[0m [start router....] 
 [31m2020-08-10 16:12:17 [DBG] [router.go:18] [echodemo/router.Start]->[0m [start router....] 
+[31m2020-08-10 20:09:47 [DBG] [log.go:46] [echodemo/logs.Debug]->[0m [start router....] 
+[31m2020-08-10 20:12:55 [DBG] [router.go:19] [echodemo/router.Start]->[0m [start router....] 

@@ -1,8 +1,9 @@
 package router
 
 import (
-	"echodemo/controller"
 	"echodemo/logs"
+	ourmiddleware "echodemo/middleware"
+	v1 "echodemo/router/api/v1"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )
@@ -20,6 +21,7 @@ func Start() {
 	e.Static("/", "static")
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
+	e.Use(ourmiddleware.Count)
 	initRouter()
 	//自定义中间件拦截器
 	//
@@ -31,9 +33,9 @@ func Start() {
 */
 func initRouter() {
 	//用户组定义中间件
-	userGroup := e.Group("/users")
-	userGroup.GET("/user/:id", controller.GetUser)
-	userGroup.POST("/user", controller.InsertUser)
-	userGroup.DELETE("/user/:id", controller.DeleteUser)
-	userGroup.PUT("/user/:id", controller.UpdateUser)
+	userGroup := e.Group("/api/users")
+	userGroup.GET("/user/:id", v1.GetUser)
+	userGroup.POST("/user", v1.InsertUser)
+	userGroup.DELETE("/user/:id", v1.DeleteUser)
+	userGroup.PUT("/user/:id", v1.UpdateUser)
 }
